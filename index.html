@@ -13,32 +13,36 @@
 </head>
 
 <body>
-    <div class="image__container col-6">
+    <div class="image__container col-7">
         <div class="overlay__image"> 
-            <img src="img/idat-logo_login.png" alt="logo de idat">
+            <img src="img/idat-logo_login.png" alt="logo de idat" class="idat-logo__login">
         </div>
         
     </div>
 
-    <div class="form__container col-6">
-        <form action="/login" method="post" class="form__login">
+    <div class="form__container col-5">
+        <form action="/login" method="post">
+
             <div class="form-container__intro">
                 <h2 class="form-container__tittle">Hola, soy</h2>
                 <img src="img/eva-logo_login.png" alt="eva logo" class="eva-logo__login">
                 <h3 class="form-container__subtittle">¡Espero que tu sábado sea increíble!</h3>
             </div>
+            
+            <div class="form-container__input">
+                <label for="username-field"></label>
+                <input type="text" id="username-field" 
+                placeholder="Por favor, ingresa tu código de usuario">
 
-            <label for="username-field"></label>
-            <input type="text" id="username-field" 
-            placeholder="Por favor, ingresa tu código de usuario">
+                <label for="password"></label>
+                <input type="password" id="password-field" 
+                placeholder="Y aquí tu contraseña">
 
-            <label for="password"></label>
-            <input type="password" id="password-field" 
-            placeholder="Y aquí tu contraseña">
-
-            <button type="submit" class="form__button">Comencemos</button>
-            <a href="/contraseña-olvidada"
-            class="contraseña-olvidada__link">Olvidé mi contraseña</a>
+                <button type="submit" class="form__button">Comencemos</button>
+                <a href="/contraseña-olvidada"
+                class="contraseña-olvidada__link">Olvidé mi contraseña</a>
+            </div>
+                
         </form>
     </div>
 
