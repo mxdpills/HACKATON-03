@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.image__container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/estudiantes_login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay__image{
+    display: flex;
+    align-items: center;
+    max-width: 5%;
+    height: auto;
+    margin: 0% 4%;
+    
+}
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #722AE9;
+    padding: 0% 10%;
+}
+
+.form__login{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.form-container__intro{
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.form-container__tittle{
+    font-family:'Mulish';
+    font-style: normal;
+    font-size: 25pt;
+    color: #FFFFFF;
+}
+
+.form-container__subtittle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25pt;
+    color: #FFFFFF;
+}
+
+.eva-logo__login{
+    max-width: 50%;
+}
+
+
